@@ -21,11 +21,6 @@ public class TokenStream {
 	private char nextChar = ' '; // next character in input stream
 	private BufferedReader input;
 
-	// This function was added to make the demo file work
-	public boolean isEoFile() {
-		return isEof;
-	}
-
 	// Constructor
 	// Pass a filename for the program text as a source for the TokenStream.
 	public TokenStream(String fileName) {
