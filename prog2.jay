@@ -1,0 +1,16 @@
+void main(){
+    int i, n, sum;
+    boolean done;
+    n = 10;
+    i = 1;
+    sum = 0;
+    done = false;
+    while (i <= n && !done) {
+        sum = sum + i * 2;
+        if (sum > 50 || (n - i) / 2 == 0)
+            done = true;
+        else {
+            i = i + 1;
+        }
+    }
+}
